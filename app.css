@@ -1,0 +1,103 @@
+*{
+    /* margin:0;
+    padding: 0; */
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+}
+
+.main1{
+    /* background-image: url(./image/pngwing.com.png); */
+    background-repeat: no-repeat;
+    display: flex;
+    /* background-size: contain; */
+    justify-content: center;
+}
+
+.content{
+    margin: 6rem 2rem;
+    max-width: 35rem;
+    font-family: 'Dancing Script', cursive;
+}
+.content .hero-text{
+    font-size: 4rem;
+}
+
+.content .hero-body{
+    font-size: 1.8rem;
+}
+
+.main-image{
+}
+
+.main-image img{
+    max-height: 40rem;
+    max-width: 100%;
+}
+
+.btn{
+    background-color: rgb(249 82 205);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+.btn img{
+    height: 14px;
+}
+
+#main2{
+    display: none;
+}
+
+#main3{
+    display: none;
+}
+
+#main4{
+    display: none;
+}
+
+#main5{
+    display: none;
+}
+
+#main6{
+    display: none;
+}
+#main7{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .main1{
+        display: block;
+    }
+    .main2{
+        display: block;
+    }
+    .main3{
+        display: block;
+    }
+    .main4{
+        display: block;
+    }
+    .main5{
+        display: block;
+    }
+    .main6{
+        display: block;
+    }
+    .main7{
+        display: block;
+    }
+}
+
+footer{
+    margin-top: 10rem;
+    font-family: 'Dancing Script', cursive;
+}

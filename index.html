@@ -1,86 +1,130 @@
-<html>
-  <head>
-    <style>
-      body {
-        background: linear-gradient(to right, #ff758c, #ff7eb3);
-        text-align: center;
-        color: white;
-        font-size: 36px;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 5rem 0;
-      }
-      .btn {
-        padding: 10px 20px;
-        background-color: white;
-        color: #ff758c;
-        border: 2px solid #ff758c;
-        border-radius: 25px;
-        font-size: 20px;
-        margin: 20px;
-        cursor: pointer;
-      }
-      .joy-image{
-        height: 20rem;
-        border-radius: 50%;
-        border: 2px solid #fff;
-      }
-      #message {
-        display: none;
-        font-size: 20px;
-        margin-top: 20px;
-      }
-      #popup {
-        display: none;
-        background-color: white;
-        border: 2px solid #ff758c;
-        border-radius: 25px;
-        padding: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        color: #000;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        font-size: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="main">
-        <div class="img-wrapper">
-            <img class="joy-image" src="https://scontent.fktm6-1.fna.fbcdn.net/v/t39.30808-6/316310501_2002838396580885_653959005267682002_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=cb-z_VjUIJUAX92wOPh&_nc_ht=scontent.fktm6-1.fna&oh=00_AfDvrnBc7OhCfqJ29nMY75OLvoJBp0W9mwi3uvCQOG6KQA&oe=63E7CF85" alt="">
-        </div>
-        <h1>My Dearest Joy,</h1>
-        <p>Will you be my Valentine?</p>
-        <div>
-            <button id="yes-btn" class="btn">Yes</button>
-            <button id="no-btn" class="btn">No</button>
-        </div>
-        <p id="message">Sorry, you don't have that option. You are already mine!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css">
+    <title>The Joy story &#128151;</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main1" id="main1">
+            <div class="content">
+                <p class="hero-text">Happy valentines day <br> my Joy &#128151; </p>
+                <p class="hero-body">
+                    I know I'm not the most romantic person ever, neither am I good at expressing feelings. But I have fallen so hard for you,  
+                    I wanted to write something to you, no matter how bad or cringe it might be. Joy you make me so so happy, every time I see you 
+                    my heart goes brrrrrr...... You are the love of my life Joy. You are the most amazing person I have ever met and I'm so 
+                    glad to call you mine. We had so many amazing moments, so many memories together and I wanna revisit some of them and I promise to 
+                    create even more in the future. 
+                </p>
+                <a href="#" onclick="hideMain1()" class="btn">Continue <img src="./image/Arrowhead-Right-01-256.png" alt=""></a>
 
-        <div id="popup">
-            <p>Thank you for loving me! 
-                <br> P.S. I love You </p>
+            </div>
+            <div class="main-image">
+                <img src="./image/main.png" alt="">
+            </div>  
         </div>
+
+        <div class="main1" id="main2">
+            <div class="content">
+                <p class="hero-text">First date ?? <br> not exactly </p>
+                <p class="hero-body">
+                    It was teej, I saw you in red kurthi, so so so beautiful. I got to know alot about your parents and some disease histories &#128517; .
+                    It took me three dates to finally click your picture 
+                </p>
+                <a href="#" onclick="hideMain2()" class="btn">Continue <img src="./image/Arrowhead-Right-01-256.png" alt=""></a>
+
+            </div>
+            <div class="main-image">
+                <img src="./image/teej-removebg-preview.png" alt="">
+            </div>  
+        </div>
+
+        <div class="main1" id="main3">
+            <div class="content">
+                <p class="hero-text">Around the corner &#128151; </p>
+                <p class="hero-body">
+                    Took you to one of my fav place, Around the corner. Made plans for kulekhani. Although you still didnt want me to click pictures. Very shy maya 
+                </p>
+                <a href="#" onclick="hideMain3()" class="btn">Continue <img src="./image/Arrowhead-Right-01-256.png" alt=""></a>
+
+            </div>
+            <div class="main-image">
+                <img src="./image/atc.jpg" alt="">
+            </div>  
+        </div>
+
+        <div class="main1" id="main4">
+            <div class="content">
+                <p class="hero-text">Most special day &#128151; </p>
+                <p class="hero-body">
+                    Although we had talked like two weeks only, you trusted me so much that we actually went to kulekhani.
+                    <br> Finally managed to hold your hands &#128539; . It was when I knew I had strong feelings for you and return trip was awesome when you hugged me on bike.
+                </p>
+                <a href="#" onclick="hideMain4()" class="btn">Continue <img src="./image/Arrowhead-Right-01-256.png" alt=""></a>
+
+            </div>
+            <div class="main-image">
+                <img src="./image/kulekhani.jpg" alt="">
+            </div>  
+        </div>
+
+        <div class="main1" id="main5">
+            <div class="content">
+                <p class="hero-text">The Birthday </p>
+                <p class="hero-body">
+                    It was our birthday, spent my whole day and evening with you, got to finally introduce you to my friends. It was amazing and everyone loved you so much.
+                </p>
+                <a href="#" onclick="hideMain5()" class="btn">Continue <img src="./image/Arrowhead-Right-01-256.png" alt=""></a>
+
+            </div>
+            <div class="main-image">
+                <img src="./image/birthday.jpg" alt="">
+            </div>  
+        </div>
+
+        <div class="main1" id="main6">
+            <div class="content">
+                <p class="hero-text">Pokhara </p>
+                <p class="hero-body">
+                    Two days I spent with you were priceless. We went to so many beautiful places, saw mountains, had good food, went for a walk along  lakeside. 
+                    <br> You massaged my head, woke up all night when I could not sleep, took care of me so much that I got lil emotional &#128517;.
+                    <br>This was when I knew I wanted to be with you forever.
+                </p>
+                <a href="#" onclick="hideMain6()" class="btn">Continue <img src="./image/Arrowhead-Right-01-256.png" alt=""></a>
+
+            </div>
+            <div class="main-image">
+                <img src="./image/pokhara.jpg" alt="">
+            </div>  
+        </div>
+
+        <div class="main1" id="main7">
+            <div class="content">
+                <p class="hero-text">Not a conclusion </p>
+                <p class="hero-body">
+                    These are few special memories I managed to add as of Feb 13 10-30 at night. There are so many other moments we had that I could not 
+                    add here. My Doctor Maya I promise to you I will always love you no matter what, I hope you will always love me too. When I am
+                    with you Im at my happiest and I feel so lucky to have you in my life. I wanna spend my life with you and continue to add even more moments 
+                    with you. I love you so much. and <br><br> <strong>Happy valentines day</strong> <br> Your love <br> <strong>Bassanta</strong>    
+                </p>
+                <!-- <a href="#" onclick="hideMain6()" class="btn">Continue <img src="./image/Arrowhead-Right-01-256.png" alt=""></a> -->
+
+            </div>
+            <div class="main-image">
+                <img src="./image/us.jpg" alt="">
+            </div>  
+        </div>
+        
+        <footer>
+            Made with &#128151; by bassanta
+        </footer>
     </div>
-  </body>
-  <script>
-    var noBtn = document.getElementById("no-btn");
-    noBtn.addEventListener("click", function() {
-      this.style.cursor = "default";
-      this.style.backgroundColor = "#ff758c";
-      this.style.color = "white";
-      this.style.border = "2px solid white";
-    //   this.disabled = true;
-      document.getElementById("message").style.display = "block";
-    });
-
-    var yesBtn = document.getElementById("yes-btn");
-      yesBtn.addEventListener("click", function() {
-        document.getElementById("popup").style.display = "block";
-      });
-  </script>
+    <script src="app.js"></script>
+</body>
 </html>
