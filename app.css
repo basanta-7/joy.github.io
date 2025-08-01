@@ -72,6 +72,9 @@
 #main7{
     display: none;
 }
+#main8{
+    display: none;
+}
 
 @media only screen and (max-width: 600px) {
     .main1{
@@ -93,6 +96,9 @@
         display: block;
     }
     .main7{
+        display: block;
+    }
+    .main8{
         display: block;
     }
 }

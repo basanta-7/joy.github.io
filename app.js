@@ -40,3 +40,24 @@ function hideMain6(){
     document.getElementById('main6').style.display = 'none';
     document.getElementById('main7').style.display = 'block';
 }
+
+function hideMain7(){
+    document.getElementById('main1').style.display = 'none';
+    document.getElementById('main2').style.display = 'none';
+    document.getElementById('main3').style.display = 'none';
+    document.getElementById('main5').style.display = 'none';
+    document.getElementById('main6').style.display = 'none';
+    document.getElementById('main7').style.display = 'none';
+    document.getElementById('main8').style.display = 'block';
+}
+
+function hideMain8(){
+    document.getElementById('main1').style.display = 'none';
+    document.getElementById('main2').style.display = 'none';
+    document.getElementById('main3').style.display = 'none';
+    document.getElementById('main5').style.display = 'none';
+    document.getElementById('main6').style.display = 'none';
+    document.getElementById('main7').style.display = 'none';
+    document.getElementById('main8').style.display = 'none';
+    document.getElementById('main9').style.display = 'block';
+}
